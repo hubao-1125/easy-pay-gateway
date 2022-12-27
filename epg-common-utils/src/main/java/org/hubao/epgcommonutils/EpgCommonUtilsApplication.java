@@ -1,13 +1,13 @@
-package org.hubao.easypaygateway;
+package org.hubao.epgcommonutils;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EasyPayGatewayApplication {
+public class EpgCommonUtilsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EasyPayGatewayApplication.class, args);
+        SpringApplication.run(EpgCommonUtilsApplication.class, args);
     }
 
 }
