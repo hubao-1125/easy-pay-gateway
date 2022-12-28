@@ -8,6 +8,7 @@
         <version>3.0.1</version>
     </parent>
 
+    <packaging>pom</packaging>
     <groupId>org.hubao</groupId>
     <artifactId>easy-pay-gateway</artifactId>
     <version>1.0.0-SNAPSHOT</version>

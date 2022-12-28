@@ -7,11 +7,22 @@
         <artifactId>easy-pay-gateway</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
+
+    <packaging>pom</packaging>
     <groupId>org.hubao</groupId>
     <artifactId>epg-config</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>epg-config</name>
     <description>epg-config</description>
+
+
+    <modules>
+        <module>epg-config-api</module>
+        <module>epg-config-common</module>
+        <module>epg-config-data</module>
+        <module>epg-config-service</module>
+    </modules>
+
     <properties>
         <java.version>17</java.version>
     </properties>

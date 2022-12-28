@@ -7,6 +7,8 @@
         <artifactId>easy-pay-gateway</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
+
+    <packaging>pom</packaging>
     <groupId>org.hubao</groupId>
     <artifactId>epg-order</artifactId>
     <version>1.0.0-SNAPSHOT</version>
