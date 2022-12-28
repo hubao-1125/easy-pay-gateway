@@ -1,10 +1,10 @@
-package org.hubao.epgpay;
+package org.hubao.epgpaycommon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EpgPayApplicationTests {
+class EpgPayCommonApplicationTests {
 
     @Test
     void contextLoads() {
