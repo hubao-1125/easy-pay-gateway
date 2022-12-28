@@ -14,8 +14,17 @@
     <name>easy-pay-gateway</name>
     <description>easy-支付网关</description>
 
+    <modules>
+        <module>epg-common-utils</module>
+        <module>epg-config</module>
+        <module>epg-front</module>
+        <module>epg-order</module>
+        <module>epg-pay</module>
+    </modules>
+
+
     <properties>
-        <java.version>17</java.version>
+        <java.version>1.8</java.version>
     </properties>
     <dependencies>
         <dependency>
