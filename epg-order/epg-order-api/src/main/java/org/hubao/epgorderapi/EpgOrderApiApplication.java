@@ -1,0 +1,13 @@
+package org.hubao.epgorderapi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EpgOrderApiApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(EpgOrderApiApplication.class, args);
+    }
+
+}
