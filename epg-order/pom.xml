@@ -14,6 +14,14 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>epg-order</name>
     <description>epg-order</description>
+
+
+    <modules>
+        <module>epg-order-api</module>
+        <module>epg-order-common</module>
+        <module>epg-order-service</module>
+    </modules>
+
     <properties>
         <java.version>17</java.version>
     </properties>

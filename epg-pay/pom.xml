@@ -14,6 +14,14 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>epg-pay</name>
     <description>epg-pay</description>
+
+    <modules>
+        <module>epg-pay-api</module>
+        <module>epg-pay-common</module>
+        <module>epg-pay-data</module>
+        <module>epg-pay-service</module>
+    </modules>
+
     <properties>
         <java.version>17</java.version>
     </properties>
