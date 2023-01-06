@@ -18,7 +18,7 @@
 #### 1、epg-pay-service-wx(微信支付具体实现服务，限定V2XML)*
 #### 2、epg-pay-service-wxv3(微信支付具体实现服务，限定V3JSON)*
 #### 3、epg-pay-service-alipay(支付宝支付具体实现服务)*
-#### 4、epg-pay-service-unionpay(银联支付具体实现服务)*
+#### 4、epg-pay-service-union(银联支付具体实现服务)*
 #### 5、epg-pay-service-icbc(工行支付具体实现服务)*
 #### 6、epg-pay-service-dg(汇付天下-斗拱支付具体实现服务)*
 ### 4、epg-pay-data(支付相关操作数据库)
@@ -45,7 +45,7 @@
 
 ---
 
-## epg-share(分账订单，待定)
+## epg-share(分账订单)
 ### 1、epg-share-common(model)
 ### 2、epg-share-api(dubbo接口)
 ### 3、epg-share-service(具体实现)
