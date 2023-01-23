@@ -9,7 +9,7 @@
     </parent>
 
     <packaging>pom</packaging>
-    <groupId>org.hubao</groupId>
+    <groupId>org.easypay</groupId>
     <artifactId>easy-pay-gateway</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>easy-pay-gateway</name>
@@ -17,6 +17,7 @@
 
     <modules>
         <module>epg-common-utils</module>
+        <module>epg-core</module>
         <module>epg-config</module>
         <module>epg-front</module>
         <module>epg-order</module>
