@@ -4,28 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.easypay</groupId>
-        <artifactId>epg-pay</artifactId>
+        <artifactId>epg-pay-service</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
-    <packaging>jar</packaging>
     <groupId>org.easypay</groupId>
-    <artifactId>epg-pay-service</artifactId>
+    <artifactId>epg-pay-service-wxv3</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>epg-pay-service</name>
-    <description>epg-pay-service</description>
-
-
-    <modules>
-        <module>epg-pay-service-base</module>
-        <module>epg-pay-service-wx</module>
-        <module>epg-pay-service-wxv3</module>
-        <module>epg-pay-service-alipay</module>
-        <module>epg-pay-service-unionpay</module>
-        <module>epg-pay-service-icbc</module>
-        <module>epg-pay-service-dg</module>
-    </modules>
-
+    <name>epg-pay-service-wxv3</name>
+    <description>epg-pay-service-wxv3</description>
     <properties>
         <java.version>17</java.version>
     </properties>
