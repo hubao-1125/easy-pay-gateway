@@ -4,23 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.easypay</groupId>
-        <artifactId>epg-config</artifactId>
+        <artifactId>epg-config-service</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
-    <packaging>jar</packaging>
     <groupId>org.easypay</groupId>
-    <artifactId>epg-config-service</artifactId>
+    <artifactId>epg-config-service-operation</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>epg-config-service</name>
-    <description>epg-config-service</description>
-
-
-    <modules>
-        <module>epg-config-service-get</module>
-        <module>epg-config-service-operation</module>
-    </modules>
-
+    <name>epg-config-service-operation</name>
+    <description>epg-config-service-operation</description>
     <properties>
         <java.version>17</java.version>
     </properties>
